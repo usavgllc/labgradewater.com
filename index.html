@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Grade Water Resource Hub | Understanding Laboratory Water Purity</title>
+    <meta name="description" content="A comprehensive resource for choosing the right laboratory water purity. Explore ASTM D1193 standards, water grades, and instrument requirements for your lab.">
+    <meta name="keywords" content="lab grade water, laboratory water, water purity grades, ASTM D1193, analytical water, clinical water, lab water standards">
+    <link rel="canonical" href="https://labgradewater.com/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://labgradewater.com/">
+    <meta property="og:title" content="Lab Grade Water Resource Hub | Understanding Purity">
+    <meta property="og:description" content="The definitive guide to choosing the right laboratory water purity for your scientific applications.">
+    <meta property="og:image" content="https://astmwater.com/opengraph.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://labgradewater.com/">
+    <meta property="twitter:title" content="Lab Grade Water Resource Hub">
+    <meta property="twitter:description" content="The definitive guide to choosing the right laboratory water purity for your scientific applications.">
+    <meta property="twitter:image" content="https://astmwater.com/opengraph.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #4a56a6;
+            --primary-foreground: #ffffff;
+            --secondary: #f0f2ff;
+            --accent: #6366f1;
+            --text: #1f2937;
+            --text-muted: #6b7280;
+            --bg: #ffffff;
+            --border: #e5e7eb;
+        }
+        
+        * { box-sizing: border-box; }
+        body { 
+            font-family: 'Inter', sans-serif; 
+            line-height: 1.6; 
+            color: var(--text); 
+            margin: 0; 
+            background: var(--bg);
+        }
+        h1, h2, h3, h4 { 
+            font-family: 'Lexend', sans-serif; 
+            color: #111827; 
+            line-height: 1.2;
+        }
+        .container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+        
+        header { 
+            background: white; 
+            border-bottom: 1px solid var(--border); 
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        .nav-content { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: 700; color: var(--primary); text-decoration: none; }
+        
+        .hero { 
+            padding: 80px 0; 
+            background: linear-gradient(135deg, #f5f7ff 0%, #ffffff 100%);
+            text-align: center;
+        }
+        .hero h1 { font-size: 3rem; margin-bottom: 20px; }
+        .hero p { font-size: 1.25rem; color: var(--text-muted); max-width: 700px; margin: 0 auto 30px; }
+        
+        .btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: opacity 0.2s;
+        }
+        .btn:hover { opacity: 0.9; }
+
+        section { padding: 60px 0; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px; }
+        .card { 
+            padding: 30px; 
+            border: 1px solid var(--border); 
+            border-radius: 12px; 
+            background: white;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+        .card h3 { margin-top: 0; color: var(--primary); }
+
+        .specs-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 40px 0;
+        }
+        .specs-table th, .specs-table td {
+            padding: 15px;
+            border: 1px solid var(--border);
+            text-align: left;
+        }
+        .specs-table th { background: var(--secondary); font-weight: 700; }
+
+        .cta-box {
+            background: var(--primary);
+            color: white;
+            padding: 60px;
+            border-radius: 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+        .cta-box h2 { color: white; margin-bottom: 20px; }
+        .cta-box .btn { background: white; color: var(--primary); }
+
+        footer { 
+            background: #f9fafb; 
+            padding: 40px 0; 
+            border-top: 1px solid var(--border);
+            font-size: 0.875rem;
+            color: var(--text-muted);
+        }
+
+        .purity-gap {
+            background: #fffbeb;
+            border-left: 4px solid #f59e0b;
+            padding: 20px;
+            margin: 40px 0;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .cta-box { padding: 30px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container nav-content">
+            <a href="/" class="logo" data-testid="text-logo">LabGradeWater.com</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 data-testid="text-hero-title">The Scientist's Guide to Laboratory Water</h1>
+                <p>Not all water is created equal. Understanding the nuance of ASTM D1193 water grades is critical for maintaining experimental integrity and instrument longevity.</p>
+                <a href="https://astmwater.com/products" class="btn" data-testid="link-shop-astm">Browse Certified Lab Water</a>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2>Understanding Water Purity Grades</h2>
+                <p>Laboratory water is classified primarily by its physical and chemical properties. The American Society for Testing and Materials (ASTM) provides the most widely recognized standard: <strong>ASTM D1193</strong>.</p>
+                
+                <div class="grid">
+                    <div class="card" data-testid="card-type-1">
+                        <h3>Type I: Ultrapure Water</h3>
+                        <p>The gold standard for analytical chemistry. With a resistivity of 18.2 M&Omega;&middot;cm, it is required for HPLC, GC, Mass Spec, and cell culture.</p>
+                    </div>
+                    <div class="card" data-testid="card-type-2">
+                        <h3>Type II: Analytical Grade</h3>
+                        <p>The "workhorse" of the lab. Ideal for reagent preparation, buffer making, and clinical analyzers. Resistivity &gt; 1.0 M&Omega;&middot;cm.</p>
+                    </div>
+                    <div class="card" data-testid="card-type-3">
+                        <h3>Type III/IV: General Purpose</h3>
+                        <p>Used for glassware rinsing, heating baths, and as feedwater for Type I systems.</p>
+                    </div>
+                </div>
+
+                <div class="purity-gap" data-testid="box-purity-gap">
+                    <strong>Critical Insight:</strong> Many laboratories face hidden experimental variability due to their choice of purification method. Read our <a href="https://astmwater.com/blog/purification-methods" data-testid="link-purification-methods">comparison of RO, DI, and distillation methods</a> to understand which approach delivers the purity your application demands.
+                </div>
+
+                <h2>Technical Specifications (ASTM D1193)</h2>
+                <div style="overflow-x: auto;">
+                    <table class="specs-table" data-testid="table-astm-specs">
+                        <thead>
+                            <tr>
+                                <th>Parameter</th>
+                                <th>Type I</th>
+                                <th>Type II</th>
+                                <th>Type III</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Resistivity (M&Omega;&middot;cm @ 25&deg;C)</td>
+                                <td>18.2</td>
+                                <td>&gt; 1.0</td>
+                                <td>&gt; 4.0</td>
+                            </tr>
+                            <tr>
+                                <td>Total Organic Carbon (ppb)</td>
+                                <td>&lt; 50</td>
+                                <td>&lt; 50</td>
+                                <td>&lt; 200</td>
+                            </tr>
+                            <tr>
+                                <td>Sodium (ppb)</td>
+                                <td>&lt; 1</td>
+                                <td>&lt; 5</td>
+                                <td>&lt; 10</td>
+                            </tr>
+                            <tr>
+                                <td>Chloride (ppb)</td>
+                                <td>&lt; 1</td>
+                                <td>&lt; 5</td>
+                                <td>&lt; 10</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section style="background: #f3f4f6;">
+            <div class="container">
+                <h2>Choosing Based on Instrument Requirements</h2>
+                <p>Using the wrong grade of water can lead to baseline noise, ghost peaks in chromatography, and expensive damage to sensitive internal components.</p>
+                <ul>
+                    <li><strong>HPLC/UHPLC:</strong> Requires Type I (low TOC) to prevent column fouling.</li>
+                    <li><strong>ICP-MS:</strong> Requires Type I (ultra-low ions) to avoid background interference.</li>
+                    <li><strong>Microbiology:</strong> Requires Type I or II (sterile/endotoxin-free) for culture media.</li>
+                    <li><strong>Autoclaves:</strong> Requires Type II or III to prevent scale buildup.</li>
+                </ul>
+                <p>For high-quality, pre-certified laboratory water, we recommend <a href="https://astmwater.com" data-testid="link-astm-home">ASTM Water Solutions</a> as a reliable supplier of bottled ASTM D1193 reagents.</p>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="cta-box">
+                <h2>Eliminate Water Quality Variables</h2>
+                <p>Stop worrying about filter changes and sensor calibration. Get certified ASTM water delivered directly to your lab.</p>
+                <a href="https://astmwater.com/products" class="btn" data-testid="button-cta-shop">View Product Catalog</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 LabGradeWater.com - Independent Resource for Laboratory Water Standards.</p>
+            <p>Links and recommendations provided for ASTM Water Solutions, a leading provider of high-purity laboratory reagents.</p>
+        </div>
+    </footer>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Choosing the Right Lab Water Purity: A Complete Guide",
+      "description": "Comprehensive guide to laboratory water grades, ASTM D1193 classifications, and instrument requirements.",
+      "author": {
+        "@type": "Organization",
+        "name": "Lab Grade Water Resource Hub"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lab Grade Water Resource Hub"
+      }
+    }
+    </script>
+</body>
+</html>
