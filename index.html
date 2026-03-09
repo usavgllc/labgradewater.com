@@ -402,9 +402,10 @@
 
         @media (max-width: 640px) {
             .nav .container { gap: 8px; }
-            .nav-logo { font-size: 1rem; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+            .nav-logo { font-size: 0.9rem; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
             .nav-cta { font-size: 0.8rem; padding: 8px 14px; white-space: nowrap; flex-shrink: 0; }
             .hero h1 { font-size: 1.8rem; }
+            .hero-h1-sub { display: none; }
             .specs-table th { padding: 14px 16px; font-size: 0.85rem; }
             .specs-table td { padding: 12px 16px; font-size: 0.85rem; }
             .hero-sub { font-size: 1rem; }
@@ -430,7 +431,7 @@
 
     <header class="hero">
         <div class="container">
-            <h1 data-testid="text-hero-title">Certified Lab Grade Water | <em>ASTM D1193 Type I & II Compliance</em></h1>
+            <h1 data-testid="text-hero-title">Certified Lab Grade Water <span class="hero-h1-sub">| <em>ASTM D1193 Type I & II Compliance</em></span></h1>
             <p class="hero-sub">The procurement resource built for laboratory managers and research facilities. Understand reagent grade water standards, CLSI compliance requirements, and how to select the right laboratory DI water for your instruments.</p>
             <div class="hero-buttons">
                 <a href="https://astmwater.com/products" class="btn-primary" data-testid="link-hero-shop">
